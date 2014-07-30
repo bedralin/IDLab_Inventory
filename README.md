@@ -41,10 +41,10 @@ Author
 ------
 
 Will be making customizations and using PostgreSQL as our database instead:
-Bronson Edralin <bedralin@hawaii.edu>
+* Bronson Edralin <bedralin@hawaii.edu>
 
 Credits for creating the template:
-Roberto Rosario - [Twitter](http://twitter.com/#siloraptor) [E-mail](roberto.rosario.gonzalez at gmail)
+* Roberto Rosario - [Twitter](http://twitter.com/#siloraptor) [E-mail](roberto.rosario.gonzalez at gmail)
 
 
 
