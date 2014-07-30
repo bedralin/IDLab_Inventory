@@ -1,4 +1,15 @@
-#!/usr/share/django-inventory/bin/python
+#!/usr/bin/env python
+
+import os, sys
+
+if __name__ == "__main__":
+    os.environ.setdefault("DJANGO_SETTINGS_MODULE", "{{ project_name }}.settings")
+
+    from django.core.management import execute_from_command_line
+
+    execute_from_command_line(sys.argv)
+
+"""
 from django.core.management import execute_manager
 try:
     import settings # Assumed to be in the same directory.
@@ -9,3 +20,4 @@ except ImportError:
 
 if __name__ == "__main__":
     execute_manager(settings)
+"""
