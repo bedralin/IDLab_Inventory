@@ -1,11 +1,11 @@
 <VirtualHost *:80>
-    ServerName django-inventory
+    ServerName IDLab_Inventory
 
-#    WSGIDaemonProcess django-inventory user=www-data group=www-data threads=10 python-path=/usr/share/django-inventory/lib/python2.6/site-packages
-#    WSGIProcessGroup django-inventory
-    WSGIScriptAlias /django-inventory /usr/share/django-inventory/django-inventory/wsgi/dispatch.wsgi
+#    WSGIDaemonProcess IDLab_Inventory user=www-data group=www-data threads=10 python-path=/usr/share/django-inventory/lib/python2.6/site-packages
+#    WSGIProcessGroup IDLab_Inventory
+    WSGIScriptAlias /IDLab_Inventory /usr/share/IDLab_Inventory/IDLab_Inventory/wsgi/dispatch.wsgi
     
-    <Directory /usr/share/django-inventory/django-inventory>
+    <Directory /usr/share/IDLab_Inventory/IDlab_Inventory>
         Order deny,allow
         Allow from all
     </Directory>
@@ -13,7 +13,7 @@
     LogLevel warn
     CustomLog /var/log/apache2/access.log combined
 
-    Alias /django-inventory-site_media "/usr/share/django-inventory/django-inventory/site_media/"
+    Alias /IDLab_Inventory-site_media "/usr/share/IDLab_Inventory/IDLab_Inventory/site_media/"
     <Location "/site_media">
         SetHandler None
     </Location>
