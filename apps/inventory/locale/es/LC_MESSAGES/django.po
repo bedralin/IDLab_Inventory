@@ -1,0 +1,676 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-02-03 01:13-0400\n"
+"PO-Revision-Date: 2011-02-03 01:15\n"
+"Last-Translator: <admin@admin.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
+"X-Translated-Using: django-rosetta 0.5.6\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: __init__.py:10
+msgid "view all inventories"
+msgstr "ver todos los inventarios"
+
+#: __init__.py:11
+msgid "create new inventory"
+msgstr "crear nuevo inventario"
+
+#: __init__.py:13 __init__.py:21 __init__.py:27 __init__.py:32 __init__.py:40
+msgid "edit"
+msgstr "editar"
+
+#: __init__.py:14 __init__.py:22 __init__.py:28 __init__.py:33 __init__.py:41
+msgid "delete"
+msgstr "eliminar"
+
+#: __init__.py:15
+msgid "add transaction"
+msgstr "agregat transacción"
+
+#: __init__.py:16 __init__.py:23
+msgid "details"
+msgstr "detalles"
+
+#: __init__.py:17 models.py:115 views.py:127
+msgid "inventory transactions"
+msgstr "transacciones de inventarios"
+
+#: __init__.py:19
+msgid "view all transactions"
+msgstr "ver todas las transacciones"
+
+#: __init__.py:20
+msgid "create new transaction"
+msgstr "crear nueva transacción"
+
+#: __init__.py:25 models.py:27 models.py:150 urls.py:48 urls.py:51
+msgid "locations"
+msgstr "localizaciones"
+
+#: __init__.py:26
+msgid "create new location"
+msgstr "crear nueva localización"
+
+#: __init__.py:30
+msgid "create new supplier"
+msgstr "crear nuevo suplidor"
+
+#: __init__.py:31 models.py:140 urls.py:55 views.py:69
+msgid "suppliers"
+msgstr "suplidores"
+
+#: __init__.py:34
+msgid "assign templates"
+msgstr "plantillas sin asignar"
+
+#: __init__.py:35
+msgid "related purchase orders"
+msgstr "ordenes de compras relacionadas"
+
+#: __init__.py:37
+msgid "view all"
+msgstr "ver todos"
+
+#: __init__.py:38
+msgid "create new template"
+msgstr "crear una plantilla nueva"
+
+#: __init__.py:39
+msgid "orphans templates"
+msgstr "plantillas huérfanas"
+
+#: __init__.py:42
+msgid "add / remove photos"
+msgstr "agregar o quitar fotos"
+
+#: __init__.py:43
+msgid "related assets"
+msgstr "activos relacionados"
+
+#: __init__.py:44
+msgid "assign supplies"
+msgstr "asignar suministros"
+
+#: __init__.py:45
+msgid "assign suppliers"
+msgstr "asignar suplidores"
+
+#: __init__.py:47
+msgid "template"
+msgstr "plantilla"
+
+#: __init__.py:48
+msgid "return to inventory"
+msgstr "volver al inventario"
+
+#: __init__.py:55 models.py:26 models.py:80 urls.py:33
+msgid "location"
+msgstr "localización"
+
+#: __init__.py:75 models.py:149 views.py:37
+msgid "templates"
+msgstr "plantillas"
+
+#: __init__.py:76 models.py:84 urls.py:33
+msgid "inventories"
+msgstr "inventarios"
+
+#: models.py:16 models.py:79 models.py:128
+msgid "name"
+msgstr "nombre"
+
+#: models.py:17 models.py:18 models.py:19 models.py:20 models.py:129
+#: models.py:130 models.py:131 models.py:132
+msgid "address"
+msgstr "dirección"
+
+#: models.py:21 models.py:22 models.py:133 models.py:134
+msgid "phone number"
+msgstr "número de teléfono"
+
+#: models.py:38 models.py:62
+msgid "description"
+msgstr "descripción"
+
+#: models.py:39
+msgid "brand"
+msgstr "marca"
+
+#: models.py:40
+msgid "model"
+msgstr "model"
+
+#: models.py:41
+msgid "part number"
+msgstr "número de pieza"
+
+#: models.py:42
+msgid "notes"
+msgstr "notas"
+
+#: models.py:43 views.py:53
+msgid "supplies"
+msgstr "suministros"
+
+#: models.py:48 urls.py:22 urls.py:23 urls.py:24 urls.py:25 urls.py:27
+#: urls.py:28
+msgid "item template"
+msgstr "plantilla"
+
+#: models.py:49
+msgid "item templates"
+msgstr "plantillas"
+
+#: models.py:60
+msgid "timedate"
+msgstr "tiempo y hora"
+
+#: models.py:83 models.py:151 urls.py:34 urls.py:36 urls.py:37 views.py:99
+#: views.py:121
+msgid "inventory"
+msgstr "inventario"
+
+#: models.py:110 views.py:131
+msgid "date"
+msgstr "fecha"
+
+#: models.py:114 urls.py:46
+msgid "inventory transaction"
+msgstr "transacción de inventario"
+
+#: models.py:139 models.py:152 urls.py:58
+msgid "supplier"
+msgstr "suplidor"
+
+#: urls.py:25
+msgid "Will be deleted from any user that may have it assigned and from any item group."
+msgstr "Se eliminara de cualquier usuario que lo tenga asignado y de cualquier grupo de artículos."
+
+#: urls.py:26
+msgid "orphan templates"
+msgstr "plantillas huérfanas"
+
+#: urls.py:42
+msgid "transactions"
+msgstr "transacciones"
+
+#: urls.py:43 urls.py:44 urls.py:45
+msgid "transaction"
+msgstr "transacción"
+
+#: views.py:29
+#, python-format
+msgid "Assign templates to the supplier: <a href=\"%(url)s\">%(obj)s</a>"
+msgstr "Asignar plantillas al proveedor: <a href=\"%(url)s\">%(obj)s</a>"
+
+#: views.py:35
+msgid "Unassigned templates"
+msgstr "Plantillas sin asignar"
+
+#: views.py:36
+msgid "Assigned templates"
+msgstr "Plantillas asignados"
+
+#: views.py:45
+#, python-format
+msgid "Assign supplies to the template: <a href=\"%(url)s\">%(obj)s</a>"
+msgstr "Asignar suministros a la plantilla: <a href=\"%(url)s\">%(obj)s</a>"
+
+#: views.py:51
+msgid "Unassigned supplies"
+msgstr "Suministros sin asignar"
+
+#: views.py:52
+msgid "Assigned supplies"
+msgstr "Suministros asignados"
+
+#: views.py:61
+#, python-format
+msgid "Assign suppliers to the template: <a href=\"%(url)s\">%(obj)s</a>"
+msgstr "Asignación de proveedores a la plantilla: <a href=\"%(url)s\">%(obj)s</a>"
+
+#: views.py:67
+msgid "Unassigned suppliers"
+msgstr "Ssuministros sin asignar"
+
+#: views.py:68
+msgid "Assigned suppliers"
+msgstr "Suministros asignados"
+
+#: views.py:79
+msgid "assets that use the template"
+msgstr "activos que utilizan la plantilla"
+
+#: views.py:105
+#, python-format
+msgid "current balances for inventory: %s"
+msgstr "balances actuales para inventario: %s"
+
+#: views.py:108
+msgid "quantity"
+msgstr "cantidad"
+
+#: views.py:132
+msgid "item"
+msgstr "tema"
+
+#: views.py:133
+msgid "qty"
+msgstr "Cantidad"
+
+#: views.py:147
+msgid "The inventory transaction was created successfully."
+msgstr "La transacción de inventario se ha creado correctamente."
+
+#: views.py:156
+msgid "add new transaction"
+msgstr "agregar nueva transacción"
+
+#: views.py:190
+msgid "purchase orders from supplier"
+msgstr "órdenes de compra del proveedor"
+
+#: templates/report-items_per_person.html:14
+msgid "User assets report"
+msgstr ""
+
+#: templates/report-items_per_person.html:21
+msgid "ASSET NUMBER"
+msgstr ""
+
+#: templates/report-items_per_person.html:22
+msgid "DESCRIPTION"
+msgstr ""
+
+#: templates/report-items_per_person.html:23
+msgid "LOCATION"
+msgstr ""
+
+#: templates/report-items_per_person.html:24
+msgid "ASSIGNED TO"
+msgstr ""
+
+#: templates/report-items_per_person.html:25
+msgid "NOTES"
+msgstr ""
+
+#~ msgid "current balances"
+#~ msgstr "balances corrientes"
+
+#~ msgid "create new"
+#~ msgstr "crear nuevo"
+
+#~ msgid "orphans"
+#~ msgstr "huérfanos"
+
+#~ msgid "photos"
+#~ msgstr "fotos"
+
+#~ msgid "Transaction details"
+#~ msgstr "detalles de transacción"
+
+#~ msgid "transactions for inventory: %s"
+#~ msgstr "transacciones para el inventario: %s"
+
+#~ msgid "View all people"
+#~ msgstr "Ver todas las personas"
+
+#~ msgid "Create new person"
+#~ msgstr "Crear nueva persona"
+
+#~ msgid "Edit"
+#~ msgstr "Editar"
+
+#~ msgid "Edit photos"
+#~ msgstr "Editar fotos"
+
+#~ msgid "Assign/Remove asset"
+#~ msgstr "Asignar o quitar activos"
+
+#~ msgid "View all assets"
+#~ msgstr "Ver todos los activos"
+
+#~ msgid "Orphans assets"
+#~ msgstr "activos huérfanos"
+
+#~ msgid "View all groups"
+#~ msgstr "Ver todos los grupos"
+
+#~ msgid "Create group"
+#~ msgstr "Crear grupo"
+
+#~ msgid "Locations"
+#~ msgstr "Localizaciones"
+
+#~ msgid "States"
+#~ msgstr "Estados"
+
+#~ msgid "Settings"
+#~ msgstr "Configuración"
+
+#~ msgid "Suppliers"
+#~ msgstr "Suministros"
+
+#~ msgid "Assign/Remove templates"
+#~ msgstr "Asignar o quitar plantillas"
+
+#~ msgid "Photos"
+#~ msgstr "Fotos"
+
+#~ msgid "Assets that use this template"
+#~ msgstr "Activos que utilizan esta plantilla"
+
+#~ msgid "Assign/Remove supplies"
+#~ msgstr "Asignar o quitar suministros"
+
+#~ msgid "Assign/Remove people"
+#~ msgstr "Asignar o quitar personas"
+
+#~ msgid "Template"
+#~ msgstr "Plantilla"
+
+#~ msgid "Home"
+#~ msgstr "Inicio"
+
+#~ msgid "People"
+#~ msgstr "Personas"
+
+#~ msgid "Templates"
+#~ msgstr "Plantillas"
+
+#~ msgid "Assets"
+#~ msgstr "Activos"
+
+#~ msgid "Inventories"
+#~ msgstr "Inventarios"
+
+#~ msgid "Tools"
+#~ msgstr "Herramientas"
+
+#~ msgid "Search"
+#~ msgstr "Busqueda"
+
+#~ msgid "About"
+#~ msgstr "Acerca"
+
+#~ msgid "Search term"
+#~ msgstr "Término de la busqueda"
+
+#~ msgid "maximum photo size"
+#~ msgstr "tamaño máximo de la foto"
+
+#~ msgid "Limit in kilobytes."
+#~ msgstr "Límite en kilobytes."
+
+#~ msgid "maximum photos per item"
+#~ msgstr "Máximo de fotos por artículo"
+
+#~ msgid "maximum photos per item template"
+#~ msgstr "Máximo de fotos por plantilla"
+
+#~ msgid "maximum photos per user"
+#~ msgstr "Máximo de fotos por persona"
+
+#~ msgid "settings"
+#~ msgstr "configuración"
+
+#~ msgid "exclusive"
+#~ msgstr "exclusivo"
+
+#~ msgid "state"
+#~ msgstr "estado"
+
+#~ msgid "states"
+#~ msgstr "estados"
+
+#~ msgid "inclusive"
+#~ msgstr "inclusivo"
+
+#~ msgid "item state"
+#~ msgstr "estado del activo"
+
+#~ msgid "item states"
+#~ msgstr "estados de los activos"
+
+#~ msgid "asset number"
+#~ msgstr "número de propiedad"
+
+#~ msgid "serial number"
+#~ msgstr "número de serie"
+
+#~ msgid "asset"
+#~ msgstr "activos"
+
+#~ msgid "assets"
+#~ msgstr "activos"
+
+#~ msgid "item group"
+#~ msgstr "Grupo de artículos"
+
+#~ msgid "item groups"
+#~ msgstr "grupos de artículos"
+
+#~ msgid "last name"
+#~ msgstr "apellido paterno"
+
+#~ msgid "second last name"
+#~ msgstr "apellido materno"
+
+#~ msgid "first name"
+#~ msgstr "nombre"
+
+#~ msgid "second name or initial"
+#~ msgstr "segundo nombre o inicial"
+
+#~ msgid "person"
+#~ msgstr "person"
+
+#~ msgid "people"
+#~ msgstr "personas"
+
+#~ msgid "orphan assets"
+#~ msgstr "activos huérfanos"
+
+#~ msgid "Unassigned assets"
+#~ msgstr "Activos sin asignar"
+
+#~ msgid "Assigned assets"
+#~ msgstr "Activos asignados"
+
+#~ msgid "People that don't have this asset"
+#~ msgstr "Personas que no tienen este activo"
+
+#~ msgid "People that have this asset"
+#~ msgstr "Personas que tienen este activo"
+
+#~ msgid "the asset"
+#~ msgstr "el activo"
+
+#~ msgid "template photos"
+#~ msgstr "fotos de la plantilla"
+
+#~ msgid "This asset has already been marked as '%s'."
+#~ msgstr "Este activo ya se marco como '%s'."
+
+#~ msgid "Statistics"
+#~ msgstr "Estadísticas"
+
+#~ msgid "Users"
+#~ msgstr "Usuarios"
+
+#~ msgid "Data entry"
+#~ msgstr "Entrada de datos"
+
+#~ msgid "Details for"
+#~ msgstr "Detalles para"
+
+#~ msgid "Asset"
+#~ msgstr "Activos"
+
+#~ msgid "Asset number"
+#~ msgstr "Número de propiedad"
+
+#~ msgid "Serial number"
+#~ msgstr "Número de serie"
+
+#~ msgid "Location"
+#~ msgstr "Localización"
+
+#~ msgid "Notes"
+#~ msgstr "Notas"
+
+#~ msgid "Assigned to"
+#~ msgstr "Asignado a"
+
+#~ msgid "Nobody"
+#~ msgstr "Nadie"
+
+#~ msgid "Template details"
+#~ msgstr "Detalles de la plantilla"
+
+#~ msgid "Item template"
+#~ msgstr "Plantilla"
+
+#~ msgid "Last name"
+#~ msgstr "Apellido paterno"
+
+#~ msgid "Second last name"
+#~ msgstr "Apellido materno"
+
+#~ msgid "First name"
+#~ msgstr "Nombre"
+
+#~ msgid "Second name or initial"
+#~ msgstr "Segundo nombre o inicial"
+
+#~ msgid "None"
+#~ msgstr "Ninguno"
+
+#~ msgid "Results with: %(keyword)s"
+#~ msgstr "Resultados con: %(keyword)s"
+
+#~ msgid "Results in users"
+#~ msgstr "Resultados en usuarios"
+
+#~ msgid "Results in templates"
+#~ msgstr "Resultados en plantillas"
+
+#~ msgid "Results in groups"
+#~ msgstr "Resultados en grupos"
+
+#~ msgid "Identifier"
+#~ msgstr "Identificador"
+
+#~ msgid "Description"
+#~ msgstr "Descripción"
+
+#~ msgid "Brand"
+#~ msgstr "Marca"
+
+#~ msgid "Model"
+#~ msgstr "Model"
+
+#~ msgid "Part number"
+#~ msgstr "Número de pieza"
+
+#~ msgid "Related supplies"
+#~ msgstr "Suministros relacionados"
+
+#~ msgid "Assign/Remove"
+#~ msgstr "Asignar o quitar"
+
+#~ msgid "Retire"
+#~ msgstr "Decomisar"
+
+#~ msgid "Repair"
+#~ msgstr "Reparar"
+
+#~ msgid "Reactivate"
+#~ msgstr "Reactivar"
+
+#~ msgid "Repaired"
+#~ msgstr "Reparado"
+
+#~ msgid "Privileges"
+#~ msgstr "Privilegios"
+
+#~ msgid "Notes/Observations"
+#~ msgstr "Notas/Observaciones"
+
+#~ msgid "(in repairs)"
+#~ msgstr "(en reparaciones)"
+
+#~ msgid "Name"
+#~ msgstr "Nombre"
+
+#~ msgid "Item"
+#~ msgstr "Artículo"
+
+#~ msgid "retired item"
+#~ msgstr "artículo decomisado"
+
+#~ msgid "retired items"
+#~ msgstr "artículos decomisados"
+
+#~ msgid "item in repairs"
+#~ msgstr "artículo en reparación"
+
+#~ msgid "items in repairs"
+#~ msgstr "artículos en reparaciónes"
+
+#~ msgid "items"
+#~ msgstr "artículos"
+
+#~ msgid "users"
+#~ msgstr "usuarios"
+
+#~ msgid "user"
+#~ msgstr "usuario"
+
+#~ msgid "assets in repairs"
+#~ msgstr "activos en reparación"
+
+#~ msgid "In repairs since"
+#~ msgstr "en reparación desde"
+
+#~ msgid "asset to user"
+#~ msgstr "activo al usuario"
+
+#~ msgid "User photos"
+#~ msgstr "foto"
+
+#~ msgid "Create another user"
+#~ msgstr "Crear otro usuario"
+
+#~ msgid "Regional"
+#~ msgstr "Regional"
+
+#~ msgid "regional office"
+#~ msgstr "regional"
+
+#~ msgid "regional offices"
+#~ msgstr "regional"
+
+#~ msgid "regional"
+#~ msgstr "regional"
+
+#~ msgid "regionals"
+#~ msgstr "regional"
+
+#~ msgid "Title"
+#~ msgstr "Título"
+
+#~ msgid "Photo"
+#~ msgstr "Foto"

@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% load project_tags %}
+{% block title %} :: {% trans 'About this program' %}{% endblock %}
+{% block content %}
+
+<div class="content">
+    <h3 class="tc">
+    {% project_name %}<br /><br />
+    {% trans 'A Django based inventory and asset management system' %}<br /><br />
+    <br /><br />
+    </h3>
+</div>
+{% endblock %}
+{% block footer %}
+    <div id="footer">
+        <div class="block">
+            <p>&copy; 2014 Instrumentation Development Laboratory. <br \> Author: Bronson Edralin. <br \> Credits: Roberto Rosario.</p>
+        </div>
+    </div>
+{% endblock %}
