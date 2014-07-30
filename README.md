@@ -1,11 +1,7 @@
-Django Inventory
+IDLab Inventory
 =============
 
 Django based inventory and asset control.
- 
-![screenshot](http://img814.imageshack.us/img814/5088/screenshot1fz.png)
-![screenshot2](http://img443.imageshack.us/img443/1486/screenshot2wu.png)
-
 
 Features
 ---
@@ -37,17 +33,18 @@ Or execute pip install -r requirements/production.txt to install the dependencie
 Installation
 ---
 
-Check the INSTALL file in the docs folder
-or if you are brave, copy the file [install.sh](https://github.com/rosarior/django-inventory/blob/master/misc/install.sh) file to your computer and execute it.
-This script has only been tested under Ubuntu/Maverick/amd64 w/ Apache2 & bash, revise it before running it.
+install.sh file is currently being edited for easy installation
+As of right now, it is being used on the Debian (Wheezy) Linux OS on a Raspberry Pi.
 
 
 Author
 ------
 
+Will be making customizations and using PostgreSQL as our database instead:
+Bronson Edralin <bedralin@hawaii.edu>
+
+Credits for creating the template:
 Roberto Rosario - [Twitter](http://twitter.com/#siloraptor) [E-mail](roberto.rosario.gonzalez at gmail)
 
 
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/rosarior/django-inventory/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
