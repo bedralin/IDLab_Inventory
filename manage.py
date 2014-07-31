@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/share/django-inventory/bin/python
 
 from django.core.management import execute_manager
 try:
