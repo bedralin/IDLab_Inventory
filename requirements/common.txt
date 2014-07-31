@@ -1,5 +1,0 @@
-Django==1.4.13
-Pillow==2.4.0
-South==1.0
-django-photologue==2.8.2
-django-pagination==1.0.7
