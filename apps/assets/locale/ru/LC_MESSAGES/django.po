@@ -1,0 +1,295 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-02-03 01:27-0400\n"
+"PO-Revision-Date: 2011-02-03 01:30\n"
+"Last-Translator: <admin@admin.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
+"X-Translated-Using: django-rosetta 0.5.6\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+
+#: __init__.py:8
+msgid "assets states"
+msgstr "состояние активов"
+
+#: __init__.py:9
+msgid "create new asset state"
+msgstr "создание новых государственных активов"
+
+#: __init__.py:10
+msgid "edit asset state"
+msgstr "Изменить состояние активов"
+
+#: __init__.py:11
+msgid "delete asset state"
+msgstr "удалить активов состоянии"
+
+#: __init__.py:13
+msgid "view all people"
+msgstr "Посмотреть все люди"
+
+#: __init__.py:14
+msgid "create new person"
+msgstr "создать новые лица"
+
+#: __init__.py:15 __init__.py:23 __init__.py:31
+msgid "edit"
+msgstr "Изменить"
+
+#: __init__.py:16 __init__.py:24 __init__.py:32
+msgid "delete"
+msgstr "удалить"
+
+#: __init__.py:17 __init__.py:25
+msgid "add / remove photos"
+msgstr "Добавить / удалить фотографии"
+
+#: __init__.py:18
+msgid "assign assets"
+msgstr "присвоить активы"
+
+#: __init__.py:20
+msgid "view all assets"
+msgstr "Посмотреть все активы"
+
+#: __init__.py:21
+msgid "create new asset"
+msgstr "создание новых активов"
+
+#: __init__.py:22 urls.py:32
+msgid "orphan assets"
+msgstr "сирота активов"
+
+#: __init__.py:26
+msgid "assign people"
+msgstr "назначить людей"
+
+#: __init__.py:27
+msgid "template"
+msgstr "шаблон"
+
+#: __init__.py:29
+msgid "view all groups"
+msgstr "Просмотр всех групп"
+
+#: __init__.py:30
+msgid "create group"
+msgstr "Создать группу"
+
+#: __init__.py:34 models.py:17 models.py:35
+msgid "state"
+msgstr "состоянии"
+
+#: __init__.py:51 models.py:63 models.py:151 urls.py:33 views.py:33
+#: views.py:138
+msgid "assets"
+msgstr "активов"
+
+#: models.py:13 models.py:102
+msgid "name"
+msgstr "имя"
+
+#: models.py:14 models.py:21
+msgid "exclusive"
+msgstr "Эксклюзивный"
+
+#: models.py:18 models.py:150 urls.py:45 urls.py:48
+msgid "states"
+msgstr "состояний"
+
+#: models.py:21
+msgid "inclusive"
+msgstr "включительно"
+
+#: models.py:34 models.py:103
+msgid "item"
+msgstr "пункт"
+
+#: models.py:36
+msgid "date"
+msgstr "Дата"
+
+#: models.py:41
+msgid "item state"
+msgstr ""
+
+#: models.py:42
+msgid "item states"
+msgstr ""
+
+#: models.py:45
+#, python-format
+msgid "%(asset)s, %(state)s since %(date)s"
+msgstr ""
+
+#: models.py:53
+msgid "item template"
+msgstr ""
+
+#: models.py:54
+msgid "asset number"
+msgstr ""
+
+#: models.py:55
+msgid "notes"
+msgstr "Примечания"
+
+#: models.py:56
+msgid "serial number"
+msgstr "серийный номер"
+
+#: models.py:57 models.py:123
+msgid "location"
+msgstr "Местоположение"
+
+#: models.py:62 urls.py:29 urls.py:30 urls.py:34 urls.py:35
+msgid "asset"
+msgstr "активов"
+
+#: models.py:107 urls.py:43
+msgid "item group"
+msgstr ""
+
+#: models.py:108 urls.py:39
+msgid "item groups"
+msgstr ""
+
+#: models.py:119
+msgid "last name"
+msgstr "фамилия"
+
+#: models.py:120
+msgid "second last name"
+msgstr "вторая фамилия"
+
+#: models.py:121
+msgid "first name"
+msgstr "Имя"
+
+#: models.py:122
+msgid "second name or initial"
+msgstr ""
+
+#: models.py:124
+msgid "assigned assets"
+msgstr ""
+
+#: models.py:128 urls.py:20 urls.py:25
+msgid "person"
+msgstr "человек"
+
+#: models.py:129 models.py:153 urls.py:22 views.py:51
+msgid "people"
+msgstr "людей"
+
+#: models.py:152
+msgid "asset groups"
+msgstr ""
+
+#: urls.py:34
+msgid "Assigned to:"
+msgstr "Назначено:"
+
+#: views.py:25
+#, python-format
+msgid "Assign assets to the person: <a href=\"%(url)s\">%(obj)s</a>"
+msgstr ""
+
+#: views.py:31 views.py:136
+msgid "Unassigned assets"
+msgstr ""
+
+#: views.py:32 views.py:137
+msgid "Assigned assets"
+msgstr ""
+
+#: views.py:43
+#, python-format
+msgid "Assign people to the asset: <a href=\"%(url)s\">%(obj)s</a>"
+msgstr ""
+
+#: views.py:49
+msgid "People that don't have this asset"
+msgstr ""
+
+#: views.py:50
+msgid "People that have this asset"
+msgstr ""
+
+#: views.py:60
+#, python-format
+msgid "This asset has already been marked as '%s'."
+msgstr ""
+
+#: views.py:67
+#, python-format
+msgid "Are you sure you wish to mark this asset as '%s'?"
+msgstr ""
+
+#: views.py:71
+msgid "Any other states this asset may be marked as, will be cleared."
+msgstr ""
+
+#: views.py:81
+#, python-format
+msgid "This asset has already been exclusively marked as '%s'.  Clear this state first."
+msgstr ""
+
+#: views.py:88
+#, python-format
+msgid "The asset has been marked as '%s'."
+msgstr ""
+
+#: views.py:103
+#, python-format
+msgid "This asset is not marked as '%s'"
+msgstr ""
+
+#: views.py:109
+#, python-format
+msgid "Are you sure you wish to unmark this asset as '%s'?"
+msgstr ""
+
+#: views.py:115
+#, python-format
+msgid "The asset has been unmarked as '%s'."
+msgstr ""
+
+#: views.py:117
+#, python-format
+msgid "Unable to unmark this asset as '%s'"
+msgstr ""
+
+#: views.py:130
+#, python-format
+msgid "Assign assets to the group: <a href=\"%(url)s\">%(obj)s</a>"
+msgstr ""
+
+#: templates/state_subtemplate.html:7
+msgid "Item states"
+msgstr ""
+
+#: templates/state_subtemplate.html:12
+#, python-format
+msgid "Unmark as %(state)s"
+msgstr "Снять в %(state)s"
+
+#: templates/state_subtemplate.html:14
+#, python-format
+msgid "Mark as %(state)s"
+msgstr "Марк в %(state)s"
+
+#: templates/state_subtemplate.html:18
+msgid "There are no states defined."
+msgstr ""

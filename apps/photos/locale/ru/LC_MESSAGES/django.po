@@ -1,0 +1,133 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-02-03 01:36-0400\n"
+"PO-Revision-Date: 2011-02-03 01:38\n"
+"Last-Translator: <admin@admin.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
+"X-Translated-Using: django-rosetta 0.5.6\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+
+#: __init__.py:7
+msgid "delete photo"
+msgstr "Удалить фотографию"
+
+#: __init__.py:8
+msgid "mark photo as main"
+msgstr "Марк фотографию как основной"
+
+#: models.py:20
+msgid "Title"
+msgstr "Заголовок"
+
+#: models.py:21
+msgid "Main photo?"
+msgstr "Главная фотография?"
+
+#: models.py:26 views.py:60
+msgid "photo"
+msgstr "фотография"
+
+#: models.py:27
+msgid "photos"
+msgstr "фотографии"
+
+#: views.py:25
+msgid "The photo is too big."
+msgstr "Фотография слишком большая"
+
+#: views.py:45
+msgid "The photo was added successfully."
+msgstr "Фотография была удалена успешно. "
+
+#: views.py:51
+#, python-format
+msgid "photos for%(object_name)s%(max_photos)s: %(object)s"
+msgstr "Фотографии %(object_name)s %(max_photos)s :%(object)s"
+
+#: views.py:54
+#, python-format
+msgid " (maximum of %s)"
+msgstr "(Максимум %s)"
+
+#: views.py:61
+msgid "main photo"
+msgstr "Главная фотография"
+
+#: views.py:62
+msgid "title"
+msgstr "Заголовок"
+
+#: views.py:71
+msgid "Upload new photo"
+msgstr "Загрузите новую фотографию"
+
+#: views.py:93
+msgid "The main photo has been changed."
+msgstr "Главная фотография была изменена."
+
+#: views.py:115
+msgid "The main photo was deleted successfully.  The another photo has been selected as the main photo."
+msgstr "Фотография была удалена успешно. Остающаяся фотография была выбрана как главная фотография."
+
+#: views.py:117
+msgid "The main photo was deleted successfully."
+msgstr "Фотография была удалена успешно. "
+
+#: views.py:119
+msgid "The photo was deleted successfully."
+msgstr "Фотография была удалена успешно. "
+
+#: views.py:126
+msgid "Are you sure you wish to delete this photo?"
+msgstr "Вы уверены, что хотите удалить эту фотографию?"
+
+#: templates/generic_photos_subtemplate.html:15
+msgid "Photos"
+msgstr "Фотографии"
+
+#: templates/generic_photos_subtemplate.html:48
+#, python-format
+msgid "There are no %(title)s "
+msgstr "Есть нет %(title)s"
+
+#: templates/generic_photos_subtemplate.html:50
+msgid "There are no photos"
+msgstr "Нет фотографии"
+
+#: templates/photos.html:13
+msgid "Please wait..."
+msgstr "Подождите пожалуйста..."
+
+#: templates/photos.html:20
+msgid "Add / remove photos"
+msgstr "Добавить / удалить фотографии"
+
+#~ msgid "The photo was deleted successfully.  You have deleted the main photo, make sure you mark another one as the main photo."
+#~ msgstr "Фотография была удалена успешно. Вы удалили главную фотографию, удостоверьтесь, что вы отмечаете другую фотографию как главную."
+
+#~ msgid "The photo was added."
+#~ msgstr "Фотография была добавлена"
+
+#~ msgid "Edit photos"
+#~ msgstr "Редактированние фотографии"
+
+#~ msgid "Photos for"
+#~ msgstr "Фотографии для"
+
+#~ msgid "There are no photos."
+#~ msgstr "Здесь нет фотографии"
+
+#~ msgid "Uploading photo..."
+#~ msgstr "Загрузка фотографии..."
