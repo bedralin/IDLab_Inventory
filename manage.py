@@ -1,4 +1,4 @@
-#!/usr/share/django-inventory/bin/python
+#!/usr/share/IDLab_Inventory/bin/python
 
 from django.core.management import execute_manager
 try:
