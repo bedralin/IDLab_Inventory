@@ -13,7 +13,7 @@ sys.path.append(os.path.join(PROJECT_ROOT, '3rd_party_apps'))
 PROJECT_TITLE = 'IDLab Inventory'
 #PROJECT_NAME = 'KLM'
 #PROJECT_TITLE = 'Django Inventory'
-PROJECT_NAME = 'IDLab_Inventory'
+PROJECT_NAME = 'django_inventory'
 
 DEBUG = False
 DEVELOPMENT = False
