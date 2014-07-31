@@ -1,4 +1,4 @@
-b Inventory
+IDLab Inventory
 =============
 
 Django based inventory and asset control.
